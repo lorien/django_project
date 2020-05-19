@@ -1,0 +1,8 @@
+{
+    "project_name": "",
+    "_copy_without_render": [
+        "templates/navbar.html",
+        "templates/base.html",
+        "templates/board/home_page.html"
+    ]
+}

@@ -1,0 +1,9 @@
+# Common
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.orig
+/src/
+/old/
+/.hg/
