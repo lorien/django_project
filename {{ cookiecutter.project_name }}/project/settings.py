@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'board',
 ]
 
@@ -120,10 +121,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 # *******************
 # Non-Django settings
 # *******************
 
-from project.settings_local import *
+from .settings_local import *
 
 assert SECRET_KEY is not None

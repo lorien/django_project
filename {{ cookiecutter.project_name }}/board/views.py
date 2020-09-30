@@ -15,5 +15,5 @@ from project.database import db
 
 
 def page_home(request):
-    return render(request, 'board/home_page.html', {
+    return render(request, 'board/page_home.html', {
     })

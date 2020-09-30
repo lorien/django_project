@@ -1,8 +1,12 @@
 psycopg2-binary
+ujson
+pyyaml
+pymongo
+click
+runscript
+
 django
 django-extensions
 django-crispy-forms
 django-widget-tweaks
-ujson
-pyyaml
-pymongo
+gunicorn

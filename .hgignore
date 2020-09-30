@@ -1,3 +1,4 @@
 syntax: regex
 
 ^old/
+^\.git/

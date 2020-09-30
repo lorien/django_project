@@ -1,5 +1,4 @@
-# private config
-import json
+import yaml
 
-with open('var/config.json') as inp:
-    config = json.load(inp)
+with open('var/config.yml') as inp:
+    config = yaml.safe_load(inp)
